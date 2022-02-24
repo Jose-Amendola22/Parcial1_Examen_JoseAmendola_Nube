@@ -1,0 +1,15 @@
+version: '3'
+
+services: 
+    serverWeb:
+        image: webdevops/php-apache
+        container_name: DockerSinFile
+        volumes:
+            - ./app:/app
+        ports:
+            - 89:80
+            
+    
+
+
+
