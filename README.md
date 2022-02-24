@@ -7,7 +7,9 @@ ADVERTENCIA: Para la correcta funcionalidad de todos los dockers, se debe levant
 A) Levantar el docker de la base de datos
     1. Abrir una terminal en la carpeta principal "Parcial1_JoseAmendola"
     2. Ejecutar el comando en la terminal "docker-compose up"
-    3. Si se quiere entrar a la base de datos desde un gestor, el puerto y contraseña están en el "docker-compose.yml" en la carpeta  "Parcial1_JoseAmendola"
+    3. Entrar a la base de datos desde un gestor, el puerto y contraseña están en el "docker-compose.yml" en la carpeta ruta
+    4. Importar el archivo "RespaldoAnimalesBD.sql" desde el gestor de base de datos
+    5. Una vez creada la base de datos ya se pueden levantar los otros dockers. 
 
 B) Levantar cont_hub (contenedor con imagen)
     1. Abrir una terminal en la carpeta "cont_hub"
